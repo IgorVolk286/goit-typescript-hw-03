@@ -5,7 +5,9 @@
 */
 
 class Student {
-  constructor(public name: string, public age: number, public grade: string) { }
+  constructor(public name: string, public age: number, public grade: string) {}
 }
 
+const tr = new Student("gh", 10, "hvg");
+console.log(tr.age);
 export {};
